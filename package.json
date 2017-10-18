@@ -1,0 +1,30 @@
+{
+  "name": "learn-browserstack",
+  "version": "1.0.0",
+  "description": "learn browserstack with webdriverio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run single && npm run local && npm run parallel",
+    "multiple": "./node_modules/.bin/wdio conf/webdriver.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karinamzalez/learn-browserstack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karinamzalez/learn-browserstack/issues"
+  },
+  "homepage": "https://github.com/karinamzalez/learn-browserstack#readme",
+  "dependencies": {
+    "browserstack": "^1.5.0",
+    "browserstack-local": "^1.3.0",
+    "env2": "^2.2.0",
+    "webdriver": "^5.0.0-rc1",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.5.11"
+  }
+}
